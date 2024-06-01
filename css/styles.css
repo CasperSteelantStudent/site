@@ -1,0 +1,132 @@
+/* Algemene stijlen */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f8f8f8;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+header .logo img {
+    height: 40px;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 2rem;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}
+
+section {
+    padding: 4rem 2rem;
+    margin-top: 60px;
+}
+
+#hero {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background: url('hero-bg.jpg') no-repeat center center/cover;
+}
+
+#hero video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    opacity: 0.5;
+}
+
+#hero .hero-content {
+    text-align: center;
+}
+
+#hero .cta-button {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: 500;
+    margin-top: 1rem;
+}
+
+#features .feature {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+#features .feature img {
+    width: 100px;
+    height: 100px;
+    margin-right: 1rem;
+}
+
+#videos .video {
+    margin-bottom: 2rem;
+}
+
+#videos iframe {
+    width: 100%;
+    height: 500px;
+}
+
+#testimonials blockquote {
+    background-color: #fff;
+    padding: 1rem;
+    border-left: 5px solid #007bff;
+    margin: 0 0 1rem;
+}
+
+#testimonials cite {
+    display: block;
+    margin-top: 0.5rem;
+    font-style: normal;
+    color: #555;
+}
+
+footer {
+    padding: 2rem;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+
+footer .social-media a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 0.5rem;
+}
+
+footer .social-media a:hover {
+    text-decoration: underline;
+}
