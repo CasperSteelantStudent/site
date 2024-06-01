@@ -82,13 +82,18 @@ section {
 #features .feature {
     display: flex;
     align-items: center;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
+    margin-right: 2rem;
 }
 
 #features .feature img {
-    width: 100px;
-    height: 100px;
+    width: 300px;
+    height: 300px;
     margin-right: 1rem;
+}
+
+#features h3{
+    margin-right: 1rem;    
 }
 
 #videos .video {
