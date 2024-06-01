@@ -119,6 +119,12 @@ section {
     color: #555;
 }
 
+.testimonials img {
+    width: 300px;
+    height: 300px;
+    margin-right: 1rem;
+}
+
 footer {
     padding: 2rem;
     background-color: #333;
@@ -135,3 +141,4 @@ footer .social-media a {
 footer .social-media a:hover {
     text-decoration: underline;
 }
+
