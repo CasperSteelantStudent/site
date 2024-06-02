@@ -213,3 +213,9 @@ footer .social-media a:hover {
 #features .feature h3{
     margin-right: 3rem;
 }
+
+#Miro {
+    align-items: center;
+    width: 100%;
+    height: 600px;
+}
